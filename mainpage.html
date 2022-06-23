@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="game.js"></script>
+
+        <title>Home</title>
+    </head>
+
+    <body onload="gameLoaded();">
+        <h1>Tic Tac Toe</h1>
+        <button id="btn" class="resetGame" onclick="startGame()">Start</button>
+        <br>
+        <!-- <div id="timelapsed" class="timer">00:00:00</div> -->
+        <br>
+        <div id="gameboard">
+            <div class="mainbox">
+                <div id="tl" class="topleft" onclick="clickMe('tl')"></div>
+                <div id="tc" class="topcenter" onclick="clickMe('tc')"></div>
+                <div id="tr" class="topright" onclick="clickMe('tr')"></div>
+            </div>
+
+            <div class="mainbox">
+                <div id="ml" class="middleleft" onclick="clickMe('ml')"></div>
+                <div id="mc" class="middlecenter" onclick="clickMe('mc')"></div>
+                <div id="mr" class="middleright" onclick="clickMe('mr')"></div>
+            </div>
+
+            <div class="mainbox">
+                <div id="bl" class="bottomleft" onclick="clickMe('bl')"></div>
+                <div id="bc" class="bottomcenter" onclick="clickMe('bc')"></div>
+                <div id="br" class="bottomright" onclick="clickMe('br')"></div>
+            </div>
+        </div>
+        <br>
+    </body>
+
+</html>

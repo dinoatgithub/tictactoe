@@ -1,0 +1,135 @@
+body {
+    background-color: rgba(48, 3, 82, 0.916);
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    font-size: 48px;
+    color: rgb(245, 248, 238);
+}
+
+h1 {
+    font-size: 96px;
+    text-shadow: 2px 2px 20px rgba(217, 180, 60, 0.955);
+    color: rgb(255, 255, 255);
+}
+
+.mainbox {
+    width: 300px;
+    height: 100px;
+    display: flex;
+}
+
+.mainbox:hover {
+    cursor: pointer;
+}
+
+.topleft {
+    border-right: 5px solid white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topcenter {
+    border-right: 5px solid white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topright {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middlecenter {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middleleft {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middleright {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.bottomleft {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomcenter {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.bottomright {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.resetGame {
+    width: 200px;
+    font-size: 50px;
+    border: 5px solid rgb(186, 166, 239);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(83, 67, 224);
+    color: black;
+    box-shadow: 2px 2px 20px rgba(12, 9, 0, 0.955);
+}
+
+.resetGame:hover {
+    cursor: pointer;
+}
+
+.timer {
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+}
